@@ -1,0 +1,121 @@
+body {
+	background-image: url(../img/background.jpg) ;
+	background-size: 100%;
+    background-repeat: repeat-y;
+    background-color: black;
+}
+
+
+header{
+	text-align: center;
+	border-radius: 30px;
+}
+
+/*Navigation*/
+.nav{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+    margin:2% auto;
+    padding:0;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+	color: navy;
+    display:inline-block;
+	background-color: black;
+    padding:5px;
+	
+	color: white;
+    text-decoration: none;
+    font-family: courier;
+    font-size: 16px;
+	
+    background-color: grey;
+    border: 1px solid black;
+    color: white;
+    list-style-type: none;
+	
+	-moz-transition: 0.5s ease-out;
+    -o-transition: 0.5s ease-out;
+    -webkit-transition: 0.5s ease-out;
+    transition: 0.5s ease-out;
+	
+	border-radius: 5px;
+	
+	background: -moz-linear-gradient(180deg, black, #2D2D17);
+    background: -o-linear-gradient(180deg, black, #2D2D17);
+    background: -webkit-linear-gradient(180deg, black, #2D2D17);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, black), color-stop(1, #2D2D17));
+	opacity: 0.5;
+}
+
+.container {
+    background-color: #eee;
+    clear: left;
+    border-top: 2px solid grey;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    padding-left: 2%;
+    padding-right: 2%;
+	
+
+	background-size: 100%;
+    background-repeat: repeat-y;
+    width: 80%;
+    margin: 0 auto;
+	border-radius: 15px;
+	background-image: url(../img/container.jpg) ;
+    }
+
+.container p{
+	display: block;
+	background-color: white;
+	border-radius: 5px;
+	padding: 1%;
+}
+
+.container section{
+}
+
+.nav a:visited{
+	color: white;
+}
+
+.nav a:hover{
+    text-shadow: 2px 2px #000, -2px -2px #000;
+	background: -moz-linear-gradient(180deg, #2D2D17, black);
+    background: -o-linear-gradient(180deg, #2D2D17, black);
+    background: -webkit-linear-gradient(180deg, #2D2D17, black);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #2D2D17), color-stop(1, black));
+	opacity: 0.9;
+}
+	
+#titleimg {
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+	width: 80%;
+	height: 10%;
+    }
+	
+footer{
+	width: 65%;
+	background-color: grey;
+	color: black;
+	text-align: center;
+	border: 1px solid black;
+	border-radius: 90px;
+	margin: auto;
+	opacity: 0.5;
+	font-weight: bold;
+	
+	background: -moz-linear-gradient(180deg, grey, white);
+    background: -o-linear-gradient(180deg, grey, white);
+    background: -webkit-linear-gradient(180deg, grey, white);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, grey), color-stop(1, white));
+}
